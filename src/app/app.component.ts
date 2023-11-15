@@ -9,7 +9,7 @@ import { Map } from 'maplibre-gl';
 export class AppComponent {
 
   public mapLoaded(map: Map) {
-    console.log('map loaded');
+    console.log('map loaded', map);
     const geojson1 = {
       id: '1',
       type: 'Feature',
